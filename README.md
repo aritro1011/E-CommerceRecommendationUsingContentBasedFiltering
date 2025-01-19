@@ -51,16 +51,13 @@ Run the app locally with:
 
 python main.py
 ```
-By default, the app will run on http://127.0.0.1:5000.
-File Structure
-bash
-Copy
-Edit
-.
-├── main.py                # Flask application
-├── requirements.txt      # Dependencies
-├── amazon.csv
- |_____program.py #python code   
-│   
-├── templates/            # HTML templates 
-└── README.md             # Project documentation
+By default, the app will run on http://127.0.0.1:5000.  
+
+File Structure  
+
+*main.py                # Flask application
+*requirements.txt      # Dependencies
+*amazon.csv            #dataset
+*program.py            #python code   
+*templates/            # HTML templates 
+*README.md             # Project documentation
