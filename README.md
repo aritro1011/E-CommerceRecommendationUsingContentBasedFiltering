@@ -30,8 +30,8 @@ This project is a content-based filtering recommendation system for an e-commerc
 
 ### Clone the Repository
 ```bash
-git clone <your-repo-link>
-cd <repository-name>
+git clone <https://github.com/aritro1011/E-CommerceRecommendationUsingContentBasedFiltering>
+cd <E-CommerceRecommendationUsingContentBasedFiltering>
 ```
 ## Install Required Libraries
 
