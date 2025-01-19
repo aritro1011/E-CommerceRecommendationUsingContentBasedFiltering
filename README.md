@@ -35,10 +35,32 @@ This project is a content-based filtering recommendation system for an e-commerc
 ```bash
 git clone <your-repo-link>
 cd <repository-name>
-----
+```
 ## Install Required Libraries
 
 Install all dependencies from the `requirements.txt` file:
 
 ```bash
 pip install -r requirements.txt
+```
+Running the Application
+Start the Flask App:
+Run the app locally with:
+
+```bash
+
+python main.py
+```
+By default, the app will run on http://127.0.0.1:5000.
+File Structure
+bash
+Copy
+Edit
+.
+├── main.py                # Flask application
+├── requirements.txt      # Dependencies
+├── amazon.csv
+ |_____program.py #python code   
+│   
+├── templates/            # HTML templates 
+└── README.md             # Project documentation
