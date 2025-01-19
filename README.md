@@ -4,7 +4,6 @@ This project is a content-based filtering recommendation system for an e-commerc
 
 ## Features
 - **Content-Based Filtering**: Recommendations are made using similarities between products.
-- **Real-Time Functionality**: Built with Flask to handle requests and provide recommendations dynamically.
 - **TF-IDF Vectorization**: Utilizes TF-IDF to analyze and compare product descriptions.
 
 ---
@@ -18,9 +17,7 @@ This project is a content-based filtering recommendation system for an e-commerc
    - Calculates the cosine similarity between products.
    - Suggests the most similar products based on the user's input.
 
-3. **API Integration**:
-   - Flask handles user input through API endpoints.
-   - Returns recommended products in real time.
+
 
 ---
 
@@ -55,9 +52,14 @@ By default, the app will run on http://127.0.0.1:5000.
 
 File Structure  
 
-*main.py                # Flask application
-*requirements.txt      # Dependencies
-*amazon.csv            #dataset
-*program.py            #python code   
-*templates/            # HTML templates 
+*main.py                # Flask application  
+
+*requirements.txt      # Dependencies  
+
+*amazon.csv            #dataset  
+
+*program.py            #python code    
+
+*templates/            # HTML templates   
+
 *README.md             # Project documentation
